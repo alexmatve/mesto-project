@@ -185,7 +185,6 @@ const enableValidation = () => {
 const closePopupOverlay = (popup) => {
   popup.addEventListener('click', (evt) => {
     if (evt.target === popup) {
-      console.log('closing popup');
       closeModal(popup);
     };
   });
