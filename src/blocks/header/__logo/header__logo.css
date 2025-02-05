@@ -2,6 +2,11 @@
   width: 142px;
   height: 33px;
   object-fit: contain;
+  /* background-image: url("../../../images/logo.svg"); */
+}
+
+.header__logo::before {
+  content: url("../../../images/logo.svg");
 }
 
 @media screen and (max-width: 480px) {
